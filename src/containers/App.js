@@ -36,7 +36,7 @@ class App extends Component{
                 <SearchBox searchChange={this.onSearchChange}/>
                 <Scroll>
                     <CardList robots={filteredRobots}/>	
-                    </Scroll>
+                </Scroll>
             </div>
         )
         
